@@ -54,7 +54,7 @@ However, there are some unnecessary/weird lines.
 
 1. back += front, but front is 0?
 2. why is there a check for i + 5 == i 🤨🤨
-3. After appending to the front for even indexes, why is it incrementing back += 1?
+3. After appending to the front for even indexes, why is it incrementing back += 1? It should only increment front += 1
 
 Commenting out these lines will correct the code 
 
