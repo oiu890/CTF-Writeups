@@ -1,2 +1,13 @@
-# Hi
+# CTF-Writeups
 For me to put my writeups or things I found interesting
+
+---
+
+## ⚠ Disclaimer
+
+ Writeups are for educational purposes only.
+
+All original challenge files and binaries are the property of their respective CTF organizers.  
+If you are the author and would like something removed or credited differently, please contact me.
+
+Please do not use this writeup to submit flags to live competitions — respect the integrity of CTFs.
