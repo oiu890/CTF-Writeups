@@ -138,7 +138,7 @@ for i, idx in enumerate(order):
 print("".join(original))
 #SSMCTF{c0m3entS
 ```
-Instead I was looking at what the unscrambler wanted to do at a higher level and used replaced enumerate with zip to iterate through both the string and the order list :)
+Instead I was looking at what the unscrambler wanted to do at a higher level and replaced enumerate with zip to iterate through both the string and the order list :)
 
 ```python
 scrambled, order = "SSStMnCeT3Fm{0c", [0, 14, 1, 13, 2, 12, 3, 11, 4, 10, 5, 9, 6, 8, 7]
