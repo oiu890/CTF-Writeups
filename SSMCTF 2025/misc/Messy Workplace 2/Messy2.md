@@ -60,7 +60,7 @@ Now, we have everything we need.
 We can assume the logic is something like:
 1. Split the string into 2 halves (evens,odds)
 2. Iterate through them with zip
-3. Extend the result list
+3. Append one character from evens list and one from odds list to result
 4. If the length of evens is greater than odds, evens has an extra character that was not added to result during zip
 5. Add that extra character
 6. Join it together  
