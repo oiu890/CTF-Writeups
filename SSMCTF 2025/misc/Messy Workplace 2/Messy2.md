@@ -38,7 +38,7 @@ scrambled = "rmmsycdssf0_35_03s}"
 evens = scrambled[9:]
 odds = scrambled[:9]
 ```
-I found these 2 lines by doing ctr + f and searching for "scrambled".
+I found these 3 lines by doing ctr + f and searching for "scrambled".
 
 From this, we can deduce that the the "scrambled" string was split into 2 parts, called evens and odds. Lets look for these 2 parts in the code.
 
