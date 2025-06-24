@@ -1,5 +1,5 @@
 # SSMCTF 2025
-Placing: 15 Open, 10th Competetive
+Placing: 15th Open, 10th Competetive
 
 Team: 4ctf
 
