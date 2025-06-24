@@ -47,7 +47,7 @@ if len(evens) > len(odds):
 for o, e in zip(odds, evens):
 result.append(evens[-1])
 ```
-These are what I found, however, they are still jumbled. From these, we can see that there is another variable, called result.  
+I found these 3 lines, however, they are still jumbled. From these, we can see that there is another variable, called result.  
 Searching for it:
 
 ```python
