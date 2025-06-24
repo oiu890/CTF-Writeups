@@ -1,5 +1,5 @@
 # CTF-Writeups
-For me to put my writeups or things I found interesting
+For me to put my writeups or things I found interesting :)
 
 ---
 
