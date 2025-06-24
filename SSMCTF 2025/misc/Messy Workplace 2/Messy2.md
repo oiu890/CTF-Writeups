@@ -40,14 +40,14 @@ odds = scrambled[:9]
 ```
 I found these 2 lines by doing ctr + f and searching for "scrambled".
 
-From this, we can deduce that the the "scrambled" string was split into 2 parts, evens and odds. Lets look for these 2 parts in the code.
+From this, we can deduce that the the "scrambled" string was split into 2 parts, called evens and odds. Lets look for these 2 parts in the code.
 
 ```python
 if len(evens) > len(odds):
 for o, e in zip(odds, evens):
 result.append(evens[-1])
 ```
-These are what I found, however, they are still jumbled. We now see that there is another variable, called result.  
+These are what I found, however, they are still jumbled. From these, we can see that there is another variable, called result.  
 Searching for it:
 
 ```python
