@@ -1,6 +1,6 @@
 # CTF-Writeups
-For me to put my writeups or things I found interesting :)
-play my challenges:  
+For me to put my writeups or things I found interesting :)  
+Check out some challenges I made:  
 https://sentinelsofvigil.ctfd.io/challenges
 
 ---
