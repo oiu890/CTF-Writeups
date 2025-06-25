@@ -13,7 +13,8 @@ Here's the code to my flag, just that it's a little messy...
 # Solve
 Looking at the code, we can see a lot of weird indentation, as well as lines that are in the wrong order. We will have to fix them one by one.
 
-I used a jupyter notebook for easier debugging [notebook](solve.ipynb)
+I used a jupyter notebook for easier debugging [notebook](solve.ipynb)  
+Original file can be found in [scrambled](scrambled.py)  
 
 We will solve this by
 1. Finding the scrambled parts of the flag
