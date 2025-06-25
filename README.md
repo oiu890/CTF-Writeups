@@ -1,16 +1,18 @@
 # CTF-Writeups
 For me to put my writeups or things I found interesting :)
+play my challenges:  
+https://sentinelsofvigil.ctfd.io/challenges
 
 ---
 
-## ⚠ Disclaimer
+##  Disclaimer
 
  Writeups are for educational purposes only.
 
 All original challenge files and binaries are the property of their respective CTF organizers.  
 If you are the author and would like something removed or credited differently, please contact me.
 
-Please do not use this writeup to submit flags to live competitions — respect the integrity of CTFs.
+Please do not use the writeups to submit flags to live competitions.
 
 ---
 
