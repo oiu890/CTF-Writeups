@@ -1,7 +1,7 @@
 # Challenge Details
 Challenge name: Snake Game  
 Competition: LNC 5.0  
-Category: Misc  
+Category: Reversing    
 Difficulty: Medium  
 Points: ???  
 Solves: ???   
