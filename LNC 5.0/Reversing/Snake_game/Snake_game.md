@@ -52,7 +52,7 @@ We can see that a hardcoded array is being xored with the key that was created e
 So how should we solve it?
 Remember that the key is seeded using the X and Y coord of the golden apple. However, these coords have a small range of 38 and 18! This means there are only 684 possible keys.
 We can simply brute force this :)
-
+***Note that you may need to run the code in linux to use glibc's rand***
 ![code](./snake.py)
 
 ## Flag
