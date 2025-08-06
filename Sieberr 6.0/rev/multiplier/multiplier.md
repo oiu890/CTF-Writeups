@@ -248,7 +248,7 @@ We then export the patched binary with format "Original File".
 
 # Flag
 Run the patched binary and flag.jpg will be put into your current folder
-![flag](../../images/flag.jpg)
+![flag](../../images/flag.jpg)  
 sctf{N3s71ng_ne5t1n6_0n3_7w0_7hr33}
 
 This challenge was quite fun I learnt how to unpack and patch binaries
