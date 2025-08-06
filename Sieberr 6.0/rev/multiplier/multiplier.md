@@ -19,7 +19,8 @@ Its some kind of multiplying numbers game so I just assumed that you have to win
 However, when you first run the file, it takes very long before showing you the output. It could be that theres something else going on.
 
 Lets take a closer look:  
-![children](../../images/children.png)
+
+![children](../../images/children.png)  
 😯 
 The binary spawns a lot of children, but these children get deleted after the program finishes running.
 
