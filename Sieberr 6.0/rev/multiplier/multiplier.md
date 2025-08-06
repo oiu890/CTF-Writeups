@@ -208,9 +208,7 @@ Its quite easy to understand whats going on now, child98678016 is created, ran a
 The next step should be to access child98678016 to see what it does.
 This can be done by running the original binary, then stopping the process with ctrl + Z.
 
-# child98678016 (child1)
-For simplicity we will call child98678016 child1
-
+# child98678016
 Looking at its decompilation:  
 ![child1_1](../../images/child1_1.png)  
 and.... we face the same issue as before
