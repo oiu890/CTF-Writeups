@@ -211,8 +211,8 @@ This can be done by running the original binary, then stopping the process with 
 # child98678016 (child1)
 For simplicity we will call child98678016 child1
 
-Looking at its decompilation:
-![child1_1](../../images/child1.png)
+Looking at its decompilation:  
+![child1_1](../../images/child1_1.png)  
 and.... we face the same issue as before
 
 After unpacking:
