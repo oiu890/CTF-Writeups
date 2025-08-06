@@ -199,4 +199,55 @@ We can unpack it by running the command 'upx -d filename'
 Now back to ghidra
 
 # Ghidra 2
+![unpacked](../../images/mult1.png)
+YES readable decompilation!!
 
+Its quite easy to understand whats going on now, child98678016 is created, ran and then deleted.
+
+The next step should be to access child98678016 to see what it does.
+This can be done by running the original binary, then stopping the process with ctrl + Z.
+
+# child98678016 (child1)
+For simplicity we will call child98678016 child1
+
+Looking at its decompilation:
+![child1_1](../../images/child1.png)
+and.... we face the same issue as before
+
+After unpacking:
+![child1_2](../../images/child1_2.png)
+Much better :)
+Similar as before, we do the same trick again and view the child:
+![child2_1](../../images/child2_1.png)
+AGAIN??!
+![child2_2](../../images/child2_2.png)
+oh...
+We can assume that if we do this enough times, we would reach the final child file that has the flag.
+
+Just now when we stopped the multiplier binary we actually dumped all the child files so lets take a look.
+
+Running upx on all the children:
+![upx_all](../../images/upx_all.png)
+WAIT
+child22385564 looks suspicious!!
+Not counting the files that we had already unpacked previously (multiplier and the first 2 childs), child22385564 was not packed by UPX! IMPOSTER FOUND ඞඞඞඞඞඞඞඞඞඞ
+
+![child_3](../../images/child3.png)
+YAY we found the game logic as well as the flag code!!!!
+However, we have to win the game ONE HUNDRED MILLION times to get the flag :(
+
+Thankfully we can just patch the binary with ctrl+shift+g in ghidra
+
+Let's set lcoal_30, which is the loop counter to 0x5f5e100, which is 100000000 in hex.
+![patched](../../images/patched.png)
+This skips the entire game lol
+![for](../../images/for.png)
+We then export the patched binary with format "Original File".
+![export](../../images/export.png)
+
+# Flag
+Run the patched binary and flag.jpg will be put into your current folder
+![flag](../../images/flag.jpg)
+sctf{N3s71ng_ne5t1n6_0n3_7w0_7hr33}
+
+This challenge was quite fun I learnt how to unpack and patch binaries
